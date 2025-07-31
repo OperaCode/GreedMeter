@@ -1,6 +1,7 @@
 
 
 import React from "react";
+import image from "../assets/coin.jpg"
 
 const features = [
   {
@@ -119,7 +120,7 @@ const Landing = () => {
         <div className="flex-1">
           {/* Placeholder for hero image */}
           <img
-            src="https://images.unsplash.com/photo-1627938660283-6c53bc257c9b?auto=format&fit=crop&w=800&q=80"
+            src={image}
             alt="Crypto Sentiment Illustration"
             className="rounded-lg shadow-lg"
           />
