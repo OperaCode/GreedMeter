@@ -3,7 +3,7 @@ import {Routes, Route} from "react-router-dom"
 import './App.css'
 import Landing from './pages/Landing'
 import Home from './pages/Home'
-import GreedMeterInfo from './pages/GreedMeterInfo'
+import GreedMeterInfo from './pages/GreedMeterrPage'
 
 function App() {
   const [count, setCount] = useState(0)
