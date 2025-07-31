@@ -21,12 +21,12 @@ const SentimentCard = ({ sentiment, loading }) => {
       ) : sentiment ? (
         <>
           <h2 className="text-xl font-semibold mb-4 text-center">
-            Market Sentiment:{" "}
+            Market Sentiment:
             <span className="text-yellow-300 font-bold">{sentiment.value_classification}</span>
           </h2>
           <p className="text-6xl font-extrabold text-center mb-2">{sentiment.value}</p>
           <p className="text-xs text-gray-400 text-center">
-            Last update:{" "}
+            Last update:
             {new Date(sentiment.timestamp * 1000).toLocaleString(undefined, {
               dateStyle: "medium",
               timeStyle: "short",

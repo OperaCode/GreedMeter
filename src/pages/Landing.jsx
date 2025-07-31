@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import image from "../assets/coin.jpg"
+import image from "../assets/coin.png"
 
 const features = [
   {
