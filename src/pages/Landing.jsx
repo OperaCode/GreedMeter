@@ -1,4 +1,5 @@
-// src/pages/Landing.jsx
+
+
 import React from "react";
 
 const features = [

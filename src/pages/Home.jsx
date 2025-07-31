@@ -49,7 +49,7 @@ const Home = () => {
           </ul>
         </nav>
       </header>
-      <header className="mt-18 bg-gray-950/80 backdrop-blur-md py-6 px-4 md:px-8 shadow">
+      <div className="mt-18 bg-gray-950/80 backdrop-blur-md py-6 px-4 md:px-8 shadow">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-green-400 tracking-tight">
             GreedMeter
@@ -58,16 +58,16 @@ const Home = () => {
             Track Fear & Greed in Crypto Markets
           </p>
         </div>
-      </header>
+      </div>
 
       <main className="max-w-7xl w-full mx-auto px-4 md:px-8 py-10 flex flex-col md:flex-row gap-8">
-        <div className="md:w-1/3 flex flex-col gap-6">
+        <section className="md:w-1/3 flex flex-col gap-6">
           <SentimentCard sentiment={sentiment} loading={loadingSentiment} />
           <GreedMeterInfo />
-          <section className="bg-gray-800/50 rounded-2xl shadow p-5 border border-gray-700">
+          <div className="bg-gray-800/50 rounded-2xl shadow p-5 border border-gray-700">
             <SentimentChart data={sentimentHistory} />
-          </section>
-        </div>
+          </div>
+        </section>
 
         <section className="md:w-2/3 flex flex-col">
           <h2 className="text-2xl font-semibold mb-4 flex items-center gap-2">
